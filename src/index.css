@@ -49,7 +49,6 @@ main {
   text-indent: 5px;
 }
 
-
 .button {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
