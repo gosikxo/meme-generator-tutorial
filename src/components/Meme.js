@@ -39,11 +39,11 @@ export const Meme = () => {
                     Get a new meme image 🖼
                 </button>
             </div>
-            <img
-                className='meme-img'
-                src={meme.randomImage}
-                alt="Meme"
-            />
+            <div className="meme">
+                <img src={meme.randomImage} className="meme--image" alt='memeImage' />
+                <h2 className="meme--text top">One does not simply</h2>
+                <h2 className="meme--text bottom">Walk into Mordor</h2>
+            </div>
         </main>
     )
 }
